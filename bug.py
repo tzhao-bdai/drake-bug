@@ -1,6 +1,4 @@
-# Copyright (c) 2024 Boston Dynamics AI Institute LLC. All rights reserved.
-
-"""Minimal reproduction of pickle + hpolyhedron -> vpolytope bug."""
+"""Minimal reproduction of hpolyhedron -> vpolytope bug."""
 
 from pydrake.all import VPolytope, HPolyhedron
 import numpy as np
