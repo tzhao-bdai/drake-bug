@@ -36,6 +36,7 @@ b = np.array(
 hpolyhedron = HPolyhedron(A, b)
 
 for _ in range(10000):
+    print(_)
     VPolytope(hpolyhedron)
 
 
